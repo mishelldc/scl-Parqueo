@@ -1,0 +1,22 @@
+footer{
+    width: 100%;
+    height: 5rem;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer div{
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+footer a{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-image: url('./git.png');
+    background-size: cover;
+    margin-top: 1rem;
+    margin-left: 55rem;
+}
